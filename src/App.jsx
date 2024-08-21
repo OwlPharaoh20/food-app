@@ -1,6 +1,7 @@
 import HeadlineCards from "./components/HeadlineCards"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Food from "./components/Food"
 
 export default function App( ) {
 
@@ -10,6 +11,7 @@ export default function App( ) {
       <Navbar/>
       <Hero/>
       <HeadlineCards/>
+      <Food/>
     </div>
   )
 }
